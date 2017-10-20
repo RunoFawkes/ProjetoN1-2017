@@ -1,0 +1,15 @@
+<%@ page pageEncoding="UTF-8" %>
+<section id="logo-top">
+    <div id="logo">
+        <a href="home.jsp">Live Journal</a>
+    </div>
+    
+</section>
+    
+<section id="menu-user"> 
+    <p class="icon-avatar"><a href="update.jsp"><i class="material-icons avatar">account_circle</i></a></p>
+    <div id="userinfo">
+       ${user.username}
+    </div>
+    <a class="exit" href="Controller?command=Usuario.logout"><i class="material-icons">exit_to_app</i></a>
+</section>    

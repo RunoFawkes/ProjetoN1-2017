@@ -1,0 +1,326 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900,900i';
+
+html, body{
+    height: 100%;
+    background-color: #827717;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginsection{
+    background-color: #fff;   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#loginsection #esquerda{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #CDDC39;
+}
+
+#loginsection #esquerda .msg{
+    font-size: 65px;
+    color: #FFF;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#loginsection #esquerda .msg p{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+#loginsection #direita{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+#loginsection form{
+    width: 520px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 50px;
+}
+
+#loginsection form input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px  solid #e0e0e0;
+    width: 100%;
+    font-size: 14px;
+}
+
+#loginsection form input:focus{
+    outline:none;
+}
+
+#loginsection form input[type="submit"]{
+    width: 200px;
+    background-color: #2EBAEE;
+    color: #fff;
+    height: 50px;
+    border: none;
+}
+
+#loginsection form input[type="radio"]{
+  width: initial;
+}
+
+#loginsection form a:visited,
+#loginsection form a:active,
+#loginsection form a{
+    color: #2EBAEE;
+    margin-right: 15px;
+}
+
+#nome-projeto{
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+#about-link{
+    position: absolute;
+    right: 40px;
+    bottom: 15px;
+}
+
+#about-link a{
+    color: #2EBAEE;
+}
+
+#mainContainer{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#mainContainer,
+#mainContainer aside,
+#mainContainer #mainSection{
+    height: 100%;   
+}
+
+#mainContainer aside{
+    width:40%; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#mainContainer aside form{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0,-50%);
+}
+
+#mainContainer aside form textarea{
+    width:100%;
+    border:none;
+    margin-top:10px;
+    resize: none;
+    padding: 5px;
+    height: 100px;
+}
+
+#mainContainer aside form p{
+    color: #fff;
+}
+
+#mainContainer aside form input[type="submit"]{
+    background-color: #1eb3d8;
+    padding: 10px;
+    color:#fff;
+    border:none;
+    width: 200px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#mainContainer aside section{
+    align-items: center;
+    color: #fff;
+    height: 100px;
+    margin-top: 40px;
+}
+
+#mainContainer aside section a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#mainContainer #mainSection{
+    background-color: #EFEEEC;
+    width: 60%;
+    overflow: auto;
+}
+
+#mainContainer #mainSection article{
+    margin: 20px;
+}
+
+#mainContainer #mainSection form input,
+#mainContainer #mainSection form button{
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 5px;
+    background-color: #EFEEEC;
+}
+
+#mainContainer #mainSection form input:disabled{
+    background-color: #e0e0e0;
+}
+
+#mainContainer #mainSection form input[type="submit"],
+#mainContainer #mainSection form button{
+    background-color: #1eb3d8;
+    border:none;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+}
+
+#logo{
+    font-family: roboto;
+    font-size: 20px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.post{
+    padding: 10px;
+    color: #000;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#menu-user{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 300px;
+    display: flex;
+}
+
+#logo-top{
+    position: absolute;
+    left: 40px;
+    top: 0;
+    width: 190px !important;
+    padding: 0;
+    margin: 0;
+}
+
+#admin{
+    background-color: #1eb3d8;
+    padding: 10px;
+    border: none;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#admin a{
+    color:#FFF;
+    text-decoration:none;
+    font-size: 14px;
+}
+
+#update-text{
+    width: 99%;
+    height: 180px;
+    padding: 5px;
+    resize: none;
+    border: none;
+}
+
+.post-container{
+    margin-bottom: 50px !important;
+}
+
+.update-link{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.update-link a{
+    background-color: #827717;
+    color: #FFF;
+    text-decoration: none;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#msgSection{
+    position: absolute;
+    right: 0;
+    color: #FFF;
+    top: 195px;
+    font-size: 13px;
+}
+
+select{
+    width: 125px;
+    height: 30px;
+    border: none;
+}
+
+.avatar{
+    font-size: 80px !important;
+  
+}
+
+#userinfo{
+    margin-left: 10px;
+    margin-right: 50px;
+    vertical-align: bottom;
+}
+
+.exit{
+     vertical-align: bottom;
+}
+
+.icon-avatar{
+    vertical-align: bottom;
+}
+
+.feeling{
+    padding: 5px;
+}

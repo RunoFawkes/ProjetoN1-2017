@@ -1,0 +1,21 @@
+GRUPO:
+Thais Campagnoli Buso - 31232825
+Guilherme Dias Nunes - 31324101
+Mauricio D'Angelo Fernandes - 31302378
+
+APLICAÇÃO:
+LiveJournal - Um diário pessoal online, baseado no trabalho de LPII da Thais, atualizado para atender as exigências dessa entrega.
+
+Banco de Dados:
+DATABASE = LiveJournalDB
+USERNAME = mack
+PASSWORD = mack
+HOST = localhost:1527
+PROTOCOL = jdbc:derby
+
+OBS: O Banco de dados já está criado e pode ser encontrado na pasta 'db' do projeto.
+O banco carregado pelo serviço do Java DB pode ser apontado para essa pasta.
+
+Login de Administrador:
+Username: ADMIN
+Password: 1111
